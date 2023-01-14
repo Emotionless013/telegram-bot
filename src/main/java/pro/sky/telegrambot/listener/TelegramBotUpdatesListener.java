@@ -62,16 +62,17 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
                 SendMessage message = new SendMessage(chatId, "Saved");
                 SendResponse response = telegramBot.execute(message);
             }
-        // Process your updates here
-    });
+            // Process your updates here
+        });
         return UpdatesListener.CONFIRMED_UPDATES_ALL;
-}
+    }
+
     @Scheduled(cron = "0 0/1 * * * *")
     public void sendNotification() {
         List<notification_task> base = repository.findAllByCurrentTime();
-        for (int i = 0; i < base.size(); i++) {
-            Long chatId = base.get(i).getChatId();
-            String messageText = base.get(i).getText();
+        for (notification_task notificationTask : base) {
+            Long chatId = notificationTask.getChatId();
+            String messageText = notificationTask.getText();
             SendMessage message = new SendMessage(chatId, messageText);
             SendResponse response = telegramBot.execute(message);
         }
