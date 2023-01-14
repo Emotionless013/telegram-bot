@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1d6c8c-8492-43f9-8d7a-764eadbb75d1" name="Changes" comment="" />
+    <list default="true" id="8f1d6c8c-8492-43f9-8d7a-764eadbb75d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/Model/notification_task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/repository/notificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fdce8f6-2a16-4673-a888-9046002e9654.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7fdce8f6-2a16-4673-a888-9046002e9654.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pro/sky/telegrambot/listener/TelegramBotUpdatesListener.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,6 +48,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2Jqtsz1HR91cNQLb6zzic5JncQv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -32,11 +60,17 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Alexander/IdeaProjects/school1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
     "spring.configuration.checksum": "7b0ed8c8c9087e5bcaf8917932d6604c",
     "vue.rearranger.settings.migration": "true"
   },
@@ -67,7 +101,9 @@
       <workItem from="1672817793589" duration="34000" />
       <workItem from="1672818217365" duration="1857000" />
       <workItem from="1672820113089" duration="36000" />
-      <workItem from="1672820170061" duration="2970000" />
+      <workItem from="1672820170061" duration="3253000" />
+      <workItem from="1673676372045" duration="87000" />
+      <workItem from="1673676480041" duration="14947000" />
     </task>
     <servers />
   </component>
